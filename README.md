@@ -2,7 +2,7 @@
 
 ## Problem Definition
 
-The goal of this project is to modify the output of a specific layer in a BERT model by integrating additional information through various methods. Specifically, we aim to manipulate the input of the 10th layer by adding an additional input vector. The solution should be flexible, allowing changes to the layer being modified and the method of integration.
+The goal of this project is to modify the output of a specific layer in a BERT model by integrating additional information through various methods. The solution should be flexible, allowing changes to the layer being modified and the method of integration.
 
 ## Solution
 
