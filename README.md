@@ -17,3 +17,22 @@ Both approaches enable flexible manipulation of BERT's internal representations 
 - `src`: Contains the source code for setting up the BERT model, defining integration methods, and implementing the hook-based and custom layer-based approaches.
 - `test`: Contains test scripts to test the implementation.
 - `notebooks`: Contains the Jupyter notebook.
+
+## Notebooks
+### 1. BERT Representation Modification
+#### Overview
+This notebook demonstrates the implementation of representation manipulation in a BERT model. It includes both hook-based and custom layer-based approaches to modify the internal representations of the BERT model.
+
+#### Contents
+- **Hook-Based Approach**: Modify the input of a specific layer during the forward pass using PyTorch hooks.
+- **Custom Layer-Based Approach**: Define a custom layer that integrates additional information.
+
+### 2. Representation Manipulation in BERT Sentiment Classification
+#### Overview
+This notebook explores the impact of manipulating the internal representations of a BERT model fine-tuned for sentiment classification. The main objective is to understand how manipulating the [CLS] vector influences the model’s performance and confidence.
+
+#### Contents
+- **Dta Preparation**: Load the IMDB dataset.
+- **Model Finetuning**: Fine-tune a pre-trained BERT model for sequence classification.
+- **Representation Manipulation**: For each test instance, manipulate its [CLS] vector by subtracting the average positive [CLS] vector.
+- **Analysis of Results**: Analyze Confusion Matrices, Classification Reports, Confidence Analysis, Example Cases and Label Changes.
