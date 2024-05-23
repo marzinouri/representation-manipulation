@@ -16,7 +16,7 @@ Both approaches enable flexible manipulation of BERT's internal representations 
 
 - `src`: Contains the source code for setting up the BERT model, defining integration methods, and implementing the hook-based and custom layer-based approaches.
 - `test`: Contains test scripts to test the implementation.
-- `notebooks`: Contains the Jupyter notebook.
+- `notebooks`: Contains Jupyter notebooks.
 
 ## Notebooks
 ### 1. BERT Representation Modification
